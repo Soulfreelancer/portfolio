@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta keywords="HTML, CSS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jenna Leen Portfolio</title>
+    <!--Hier ist mein stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <body>
+      <header>
+        <div class="intro">
+          <h3>JShoots</h3>
+          <nav>
+            <ul class="mainnav">
+              <li><a href="#portfolio">PORTFOLIO</a></li>
+              <li><a href="#übermich">ÜBER MICH</a></li>
+              <li><a href="#services">SERVICES</a></li>
+              <li><a href="#kontakt">KONTAKT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <div class="background-image">
+          <img
+            class="content"
+            src="./Bilder/JennaLee.jpeg"
+            alt="Jenna Lee mit kamera"
+          />
+
+          <div class="start">
+            <h1>Jenna Lee</h1>
+            <h3>Innovative Fotografie und professionelle Bildgestaltung</h3>
+            <br />
+            <button>Jetzt Shooting buchen ></button>
+          </div>
+        </div>
+
+        <div id="portfolio">
+          <img src="./Bilder/model.jpg" alt="porttrain eines models" />
+          <img src="./Bilder/blue.webp" alt="" />
+        </div>
+
+        <div id="pf1">
+          <img
+            src="./Bilder/granny.jpg"
+            alt="alte dame mit brille in schwarz-weiß"
+            height="300px"
+          />
+
+          <img
+            src="./Bilder/eye.jpg"
+            alt=" auge mit gruenbrauner pupille"
+            height="300px"
+          />
+
+          <img
+            src="./Bilder/Glaskugel_Lensball_Fotografie-960x540.jpeg"
+            alt="Glaskugel mit spiegelbild am strand"
+            height="300px"
+          />
+        </div>
+
+        <div id="übermich">
+          <div>
+            <h2>Über mich</h2>
+            <p>
+              Als leidenschaftliche Fotografin ist es mein Ziel besondere
+              Momenten festzuhalten. Mit meiner Kamera halte ich die
+              einzigartige Schönheit von Menschen und Tieren fest. Meine Bilder
+              sollen nicht nur ästhetisch ansprechend sein, sondern auch die
+              Betrachter dazu anregen, tiefer zu blicken.
+            </p>
+          </div>
+
+          <div>
+            <h3>Meine Spezialisierungen:</h3>
+            <ul class="spez">
+              <li>Fashion & Ästhetik</li>
+              <li>Momente & Menschen</li>
+              <li>Tiere</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="services">
+          <h2>Services</h2>
+          <br />
+          <h3>Mein Angebot:</h3>
+
+          <ul>
+            <li>Individuelle Fotoshootings</li>
+            <li>Erstellung von Bildbänden in hoher Auflösung</li>
+            <li>Lizenzierung von Fotos für kommerzielle Zwecke</li>
+          </ul>
+        </div>
+
+        <div id="kontakt">
+          <div>
+            <h2>Kontakt</h2>
+
+            <br />
+
+            <h2 class="gelb">
+              Haben Sie Fragen oder interessieren sich für ein Shooting??
+            </h2>
+
+            <table>
+              <tr>
+                <th>Adresse</th>
+                <td>Musterstraße 1, 12345 Musterstadt</td>
+              </tr>
+              <tr>
+                <th>Telefon</th>
+                <td>+49 123 456 789</td>
+              </tr>
+              <tr>
+                <th>Email</th>
+                <td>kontakt@jshoots.de</td>
+              </tr>
+              <tr>
+                <th>Website</th>
+                <td><a href="https://www.beispiel.de">www.jshoots.de</a></td>
+              </tr>
+            </table>
+          </div>
+
+          <form action="/submit_form" method="post">
+            <h3>Nutzen Sie einfach das Kontaktformular</h3>
+
+            <br />
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+
+            <label for="phone">Telefonnummer:</label>
+            <input type="tel" id="phone" name="phone" required />
+            <br />
+
+            <label for="subject">Betreff:</label>
+            <input type="text" id="subject" name="subject" required />
+            <br />
+
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <br />
+
+            <button type="submit">Absenden</button>
+          </form>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="end">
+          <ul>
+            <li><a href="https://google.de">Impresssum</a></li>
+            <li><a href="https://google.de">Preise</a></li>
+            <li><a href="https://google.de">Kontakt</a></li>
+          </ul>
+          <br />
+          <a href="https://www.instagram.com" target="_blank"
+            >Instagram
+            <img src="./Bilder/10462345.png" alt="Instagram" width="40px" />
+          </a>
+        </div>
+
+        <div class="copyright">
+          <small> Copyright &copy; 2024 JShoots </small>
+        </div>
+
+        <a href="#" class="back-to-top"
+          ><img src="./Bilder/arrow.png" alt="nach oben button" width="40px"
+        /></a>
+      </footer>
+    </body>
+  </body>
+</html>
