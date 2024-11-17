@@ -3,6 +3,8 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -25,11 +27,12 @@ header {
   left: 20px;
   margin: 0;
   color: rgb(231, 190, 43);
+  font-size: 21px;
 }
 
 .mainnav {
   display: flex;
-  gap: 30px;
+  gap: 32px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -37,11 +40,12 @@ header {
 
 .mainnav a {
   text-decoration: none;
+  font-size: 16px;
   color: rgb(255, 255, 255);
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   color: rgb(231, 190, 43);
 }
 
@@ -68,8 +72,6 @@ a:hover {
 
 .background-image button:hover {
   background-color: rgba(0, 0, 0, 0.764);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
 }
 
@@ -84,26 +86,6 @@ a:hover {
 
 p {
   line-height: 1.6;
-}
-
-h1 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-h2 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-p {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
-
-h3 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #portfolio {
@@ -153,7 +135,7 @@ li {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  gap: 30px;
+  gap: 75px;
   padding: 100px;
 }
 
@@ -192,28 +174,53 @@ li {
   font-size: 21px;
 }
 
+.end {
+  align-items: center;
+  display: flex;
+}
+
 .end ul,
 a {
   list-style: none;
   color: rgb(231, 190, 43);
-  font-size: 21px;
+  font-size: 18px;
   text-decoration: none;
   display: flex;
 }
 
 .end li {
-  margin: 15px;
+  margin: 0 15px;
 }
 
 .footer {
   position: relative;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(11, 11, 11);
   height: 150px;
-  color: rgb(162, 162, 162);
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(170, 170, 166);
+  display: flex;
   text-align: center;
-  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 8px;
+  width: 100%;
+  padding: 0;
+}
+
+.socialmedia a {
+  color: rgb(239, 234, 234);
+}
+
+.socialmedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .end img {
@@ -237,7 +244,5 @@ a {
   align-items: center;
   color: rgb(0, 0, 0);
   height: 30px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   background-color: rgb(161, 161, 161);
 }
